@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
-    <style type='text/css'>
-    @font-face {
-                font-family: "My Font"; /* 임의로 폰트 이름  */
-                src: url("assets/fonts/NanumSquare_acEB.ttf");
-            }
-            p,li{font-family: "My Font",serif;}
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap"
+      rel="stylesheet"
+    />
+    <style type="text/css">
+      @font-face {
+        font-family: "My Font"; /* 임의로 폰트 이름  */
+        src: url("assets/fonts/NanumSquare_acEB.ttf");
+      }
+      p,
+      li {
+        font-family: "My Font", serif;
+      }
     </style>
     <title>Gallery</title>
   </head>
@@ -26,218 +32,196 @@
     <nav id="menu">
       <ul class="links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="generic.html">Generic</a></li>
-        <li><a href="elements.html">Elements</a></li>
         <li><a href="about-us.html">About Us</a></li>
         <li><a href="schedule.html">Schedule</a></li>
         <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="movies.html">Movies</a></li>
       </ul>
     </nav>
 
-      <!-- Two -->
-      <section class="wrapper style2">
-        <div class="inner">
-          <header>
-            <h2>Gallery</h2>
-            <p>
-              영상촌의 연도별 활동 사진이 담긴 갤러리입니다.
-            </p>
-          </header>
-          <!-- Tabbed Video Section -->
-          <div class="flex flex-tabs">
-            <ul class="tab-list">
-              <li>
-                <a href="#" data-tab="tab-1" class="active"
-                  >2017년</a
+    <!-- Two -->
+    <section class="wrapper style2">
+      <div class="inner">
+        <header>
+          <h2>Gallery</h2>
+          <p>
+            영상촌의 연도별 활동 사진이 담긴 갤러리입니다.
+          </p>
+        </header>
+        <!-- Tabbed Video Section -->
+        <div class="flex flex-tabs">
+          <ul class="tab-list">
+            <li>
+              <a href="#" data-tab="tab-1" class="active">2017년</a>
+            </li>
+            <li>
+              <a href="#" data-tab="tab-2">2018년</a>
+            </li>
+            <li>
+              <a href="#" data-tab="tab-3">2019년</a>
+            </li>
+          </ul>
+          <div class="tabs">
+            <!-- Tab 1 -->
+            <div class="tab tab-1 flex flex-3 active">
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2017/1.jpg" alt="" />
+                  <div class="arrow"></div>
+                </div>
+                <a href="gallery inside.html" class="link"
+                  ><span>Click Me</span></a
                 >
-              </li>
-              <li>
-                <a href="#" data-tab="tab-2">2018년</a>
-              </li>
-              <li>
-                <a href="#" data-tab="tab-3">2019년</a>
-              </li>
-            </ul>
-            <div class="tabs">
-              <!-- Tab 1 -->
-              <div class="tab tab-1 flex flex-3 active">
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2017/1.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="gallery inside.html" class="link"><span>Click Me</span></a>
-                </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2017/2.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
-                </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2017/3.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
-                </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2017/4.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
-                </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2017/5.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
-                </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2017/6.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
-                </div>
               </div>
-
-              <!-- Tab 2 -->
-              <div class="tab tab-2 flex flex-3">
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2018/1.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2017/2.jpg" alt="" />
+                  <div class="arrow"></div>
                 </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2018/2.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
-                </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2018/3.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
-                </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2018/4.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
-                </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2018/5.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
-                </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2018/6.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
-                </div>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
               </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2017/3.jpg" alt="" />
+                  <div class="arrow"></div>
+                </div>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2017/4.jpg" alt="" />
+                  <div class="arrow"></div>
+                </div>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2017/5.jpg" alt="" />
+                  <div class="arrow"></div>
+                </div>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2017/6.jpg" alt="" />
+                  <div class="arrow"></div>
+                </div>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+            </div>
 
-              <!-- Tab 3 -->
-              <div class="tab tab-3 flex flex-3">
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2019/1.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
+            <!-- Tab 2 -->
+            <div class="tab tab-2 flex flex-3">
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2018/1.jpg" alt="" />
+                  <div class="arrow"></div>
                 </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2019/2.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2018/2.jpg" alt="" />
+                  <div class="arrow"></div>
                 </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2019/3.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2018/3.jpg" alt="" />
+                  <div class="arrow"></div>
                 </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2019/4.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2018/4.jpg" alt="" />
+                  <div class="arrow"></div>
                 </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2019/5.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2018/5.jpg" alt="" />
+                  <div class="arrow"></div>
                 </div>
-                <!-- Video Thumbnail -->
-                <div class="video col">
-                  <div class="image fit">
-                    <img src="images/PICS/2019/6.jpg" alt="" />
-                    <div class="arrow">
-                    </div>
-                  </div>
-                  <a href="generic.html" class="link"><span>Click Me</span></a>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2018/6.jpg" alt="" />
+                  <div class="arrow"></div>
                 </div>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+            </div>
+
+            <!-- Tab 3 -->
+            <div class="tab tab-3 flex flex-3">
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2019/1.jpg" alt="" />
+                  <div class="arrow"></div>
+                </div>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2019/2.jpg" alt="" />
+                  <div class="arrow"></div>
+                </div>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2019/3.jpg" alt="" />
+                  <div class="arrow"></div>
+                </div>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2019/4.jpg" alt="" />
+                  <div class="arrow"></div>
+                </div>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2019/5.jpg" alt="" />
+                  <div class="arrow"></div>
+                </div>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
+              </div>
+              <!-- Video Thumbnail -->
+              <div class="video col">
+                <div class="image fit">
+                  <img src="images/PICS/2019/6.jpg" alt="" />
+                  <div class="arrow"></div>
+                </div>
+                <a href="generic.html" class="link"><span>Click Me</span></a>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
+      </div>
+    </section>
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
