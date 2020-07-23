@@ -2196,6 +2196,24 @@ button.special:active,
   background-color: #041321;
 }
 
+.more-btn {
+  display: block;
+  background-color: #eeeeee;
+  border: 5px solid #eeeeee;
+  border-radius: 5px;
+  color: #111111;
+  left: 40%;
+  text-align: center;
+  position: relative;
+  width: 20%;
+  height: 30%;
+}
+.more-btn:hover {
+  box-shadow: 5px 5px 5px rgb(78, 78, 78);
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
 /* Flex */
 
 .flex {
