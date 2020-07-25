@@ -2,12 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Signika:300,700");
 
-/*
-	Broadcast by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
 /* Reset */
 
 html,
@@ -1736,7 +1730,7 @@ body.is-loading *:after {
 /* Type */
 
 body {
-  background-color: #020b13;
+  background-color: #111111;
   color: #c0c2c4;
 }
 
@@ -2890,13 +2884,13 @@ ul.tab-list li a {
 }
 
 ul.tab-list li a.active {
-  background: #aa14cc;
-  color: #fff !important;
+  background: #eeeeee;
+  color: #111111 !important;
 }
 
 ul.tab-list li a:hover {
-  background: #693dcc;
-  color: #fff !important;
+  background: #b4b4b4;
+  color: #111111 !important;
 }
 
 .tab {
@@ -3496,7 +3490,7 @@ table.alt tbody tr td {
 /* Video */
 
 .video {
-  background: rgba(255, 255, 255, 0.075);
+  background: #eeeeee;
   border-radius: 4px;
   margin: 0 0 2em 0;
   overflow: hidden;
@@ -3557,7 +3551,7 @@ table.alt tbody tr td {
 }
 
 .video .caption {
-  color: #c0c5c9;
+  color: #111111;
   padding: 1.5em;
   font-size: 0.75em;
   font-weight: 300;
@@ -3986,10 +3980,11 @@ body.is-loading #banner:before {
 }
 .alt p {
   margin: 0;
+  font-size: 14px;
 }
 @media (max-width: 740px) {
   .alt p {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
