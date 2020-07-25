@@ -12,74 +12,143 @@
         padding : 0px;
       }
       .image31{
+        margin-top: 20px;
         width : 100vw;
-        height : 100vh;
-        background-color: rgba(250, 241, 241, 0.884);
+        height : 780px;
         max-width: 100%;
+        background-image: url('그림1.png');
+        background-repeat : no-repeat;
+        background-size : cover;
       }
       .textbox31{
+        margin-top : 47.66px;
         border : solid;
         margin-right : 0px;
         padding : 0px;
         position: absolute;
         width : 64vw;
-        height : 90vh;
+        height : 675px;
         left : 18vw;
 
       }
       .title31{
-        margin-left : 20px;
+        margin-left : 3.5vw;
         position : relative;
         display: inline;
-        top : 20vh;
+        top : 140px;
         font-size: 3.5em;
       }
-      .ment31{
-        margin-left : 20px;
-        position : relative;
-        top : 20vh;
+      .downicon{
+
+        position: relative;
+        top : 400px;
+        margin-left: 3.5vw;
       }
-      .fas{
+      .ment31{
+        margin-left : 3.5vw;
+        position : relative;
+        top : 140px;
+      }
+      .hashtag{
         margin-right : 5px;
         margin-left: 3px;
         font-style: oblique;
       }
       .list31{
-        margin-right: 20px;
+        margin-right: 3.5vw;
         padding-bottom: 5px;
         position: relative;
-        display: inline-block;
         border-bottom : 2px solid rgb(247, 247, 241);
-        top : 50vh;
+        top : 350px;
         float : right;
         font-size: 1.5em;
       }
-      .smallbox31{
-        padding : 0px;
-        margin : 0px;
-        display: inline-block;
-        background-color: rgba(255, 255, 255, 0.575);
-        width : 33vw;
-        height: 50vh;
-        max-width: 100%;
+
+
+      .gridcontain{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 34vw 1fr;
+        grid-gap: 3px;
+        grid-template-rows: repeat(1, 310px);
+        margin-top: 40px;
+        margin-right : 20px;
+
+
       }
-      .largebox31{
-        padding : 0px;
-        margin : 0px;
-        display: inline-block;
-        background-color: rgba(252, 250, 247, 0.842);
-        width : 64.5vw;
-        height : 50vh;
-        max-width: 100%;
+      .gridcontain2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns:  1fr 34vw;
+        grid-gap: 3px;
+        grid-template-rows: repeat(1, 310px);
+        margin-top: 30px;
+        margin-left : 15px;
       }
+      .grid{
+        border : 1px solid white;
+      }
+      .gridsmall{
+        text-align: center;
+
+      }
+      .gridtext1{
+        position: relative;
+        top : 38%;
+        font-size: 3em;
+      }
+
+      .wrap{
+        margin-top: 25px;
+      }
+      .recruit{
+        text-align: left;
+        margin-top: 33px;
+        margin-left : 5vw;
+        margin-right: 5px;
+      }
+      .gridtextalign1{
+        margin-top: 60px;
+        margin-left : 8vw;
+        margin-right : 8vw;
+        margin-bottom : 10px;
+      }
+      .gridtextalign2{
+        margin-top: 30px;
+        margin-left : 8vw;
+        margin-right : 8vw;
+        margin-bottom : 20px;
+      }
+      @media screen and (max-width: 750px){
+        .downicon{
+          display : none;}
+        .gridcontain, .gridcontain2{
+          display: block;
+          margin : 20px;
+        }
+        .media1{
+          display: flex;
+          flex-direction: column-reverse;}
+        }
+        .gridtextalign1{
+          margin-top : 35px;
+          margin-bottom : 35px;
+        }
+        .gridtextalign2{
+          margin-top: 30px;
+          margin-bottom : 30px;
+        }
+      }
+
+
 
     </style>
   </head>
-  <body31>
+  <body>
     <!-- Header -->
     <header id="header">
       <h1>
-        <a href="#">Broadcast <div>by TEMPLATED</div></a>
+        <a href="index.html">CINEVILLE<span> SKKU Film Club</span></a>
       </h1>
       <a href="#menu">Menu</a>
     </header>
@@ -87,12 +156,9 @@
     <nav id="menu">
       <ul class="links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="generic.html">Generic</a></li>
-        <li><a href="elements.html">Elements</a></li>
         <li><a href="about-us.html">About Us</a></li>
         <li><a href="schedule.html">Schedule</a></li>
         <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="movies.html">Movies</a></li>
       </ul>
     </nav>
 
@@ -103,36 +169,105 @@
     <div class="image31">
       <div class='textbox31'>
         <h1 class="title31">About Us</h1>
-        <h1 class="ment31">"<i class="fas fa-hashtag"></i>영화를 사랑하는 법3가지<br> 
-          <i class="fas fa-hashtag"></i>영화 보기   
-          <i class="fas fa-hashtag"></i>영화 평가하기 
-          <i class="fas fa-hashtag"></i>영화 만들기"
+        <h1 class="ment31">"<i class="fas fa-hashtag hashtag"></i>영화를 사랑하는 법3가지<br> 
+          <i class="fas fa-hashtag hashtag"></i>영화 보기   
+          <i class="fas fa-hashtag hashtag"></i>영화 평가하기 
+          <i class="fas fa-hashtag hashtag"></i>영화 만들기"
         </h1>
-        <h2 class="list31">About</h2>
-        <h2 class="list31">History</h2>
-        <h2 class="list31">Recruit</h2>
+        <span class = "downicon"><a href="#about"><i class="far fa-arrow-alt-circle-down fa-4x"></i></a></span>
+        <h2 class="list31"><a href="#recruit">Recruit</a></h2>
+        <h2 class="list31"><a href="#history">History</a></h2>
+        <h2 class="list31"><a href="#about">About</a></h2>
       </div>
     </div>
 
-    <div class="containbox31">
-      <div class="smallbox31"></div>
-      <div class="largebox31"></div>
+    <div class = wrap>
+      <div class="gridcontain" id="about">
+        <div class='gridsmall'><h1 class="gridtext1">ABOUT</h1></div>
+        <div class='grid' >
+          <p class="gridtextalign1"> 영상촌은 20세기부터 존재한 성균관대 율전 캠퍼스 유일무이한 영화 및 영상 제작 동아리입니다. 영화 제작 및 관람에 관련된 모든 활동을 계획하여 진행합니다. 또한 영상촌은 중앙 동아리로, 명륜 캠퍼스와 연계 활동하며 학생회관에 동아리방을 보유하고 있습니다. </p>
+        </div>
+      </div>
+
+
+      <div class="gridcontain2 media1" id="history">
+        <div class='grid media1'>
+          <p class="gridtextalign2">성균관대학교 중앙동아리 영상촌은 인문사회 캠퍼스(명륜)에서 신문방송학과 77, 78학번들에 의해 만들어진 소모임, 시네마 베리떼와 1985년에 만들어진 영화 동아리가 결합하여 탄생되었습니다. 현재 자연과학 캠퍼스(율전)에서는 2019년 기준, 36기의 구성원을 모집하여 활동중입니다. <지구를 지켜라>(2003)를 만드신 장준환 감독님이나, 한국 최고의 평론가 중 한 분이신 정성일 평론가님께서도 영상촌(명륜)을 거치신 것으로 알려져있습니다.</p>
+        </div>
+        <div class='gridsmall media3'>
+          <h1 class="gridtext1">HISTORY</h1>
+        </div>
+      </div>
+
+
+
+      <div class="gridcontain" id="recruit">
+        <div class='gridsmall'><h1 class="gridtext1">RECRUIT</h1></div>
+        <div class='grid'>
+          <p>
+          <b><i class="far fa-calendar-alt recruit"></i>모집시기 :</b> 상시모집<br>
+          <b><i class="fas fa-user-plus recruit"></i>모집인원 :</b> 약 40명<br>
+          <b><i class="far fa-clock recruit"></i>의무 활동기간 : </b>없음<br>
+          <b><i class="fas fa-user-check recruit"></i>모집방식 : </b>자유가입<br>
+          <b><i class="far fa-question-circle recruit"></i>문의 : </b><i class="fab fa-instagram"></i>인스타로 편하게 연락주세요
+            
+          </p>
+        </div>
+      </div>
     </div>
 
-    <div class="containbox31"> 
-      <div class="largebox31"></div>
-      <div class="smallbox31"></div>
+   <!-- Footer -->
+   <footer id="footer">
+    <div class="inner">
+      <div class="flex">
+        <div class="col">
+          <ul class="alt">
+            <li>
+              <p>
+                성균관대 자연과학캠퍼스 영상촌
+              </p>
+            </li>
+            <li>
+              <p>
+                Since 1991
+              </p>
+            </li>
+            <li>
+              <p>
+                경기도 수원시 장안구 서부로 2066 (천천동, 성균관대학교) 03347
+                (학생회관 3층 영상촌 동아리방)
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-
-    <div class="containbox31">
-      <div class="smallbox31"></div>
-      <div class="largebox31"></div>
+    <div class="copyright">
+      <ul class="icons">
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCAjkwlXFm-2d4VqZBuBUccA/videos"
+            class="icon fab fa-youtube"
+            ><span class="label">Youtube</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/cineville_yj/"
+            class="icon fa-instagram"
+            ><span class="label">Instagram</span></a
+          >
+        </li>
+      </ul>
+      <br />
+      &copy; Untitled. Design:
+      <a href="http://www.skkulikelion.com/">SKKUlikelion</a>.
+      <a href="https://templated.co">TEMPLATED</a>.
     </div>
+  </footer>
 
 
-
-
-
+    
 
 
     
